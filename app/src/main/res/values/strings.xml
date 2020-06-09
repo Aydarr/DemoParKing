@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">DemoParking</string>
+    <string name="app_in_name">Demo Parking</string>
+    <string name="other">always on time</string>
+    <string name="getcode">Получить код</string>
+    <string name="phoneNum">Введите номер телефона</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="reg">Зарегистрироваться</string>
+    <string name="checkcode">Введите проверочный код</string>
+</resources>
