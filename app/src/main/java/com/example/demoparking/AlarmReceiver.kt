@@ -12,5 +12,5 @@ class AlarmReceiver:BroadcastReceiver() {
         var service_intent: Intent = Intent(context, RingtoneService::class.java)
         service_intent.putExtra("extra", getResult)
         context!!.startService(service_intent)
-    }
+    }//jadlskdjklasjdlkajsdlkjas
 }
