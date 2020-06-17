@@ -86,7 +86,7 @@ var myIntent: Intent = Intent(this, AlarmReceiver::class.java )
         } )
 btnStop.setOnClickListener(object: View.OnClickListener{
     override fun onClick(v: View?) {
-        set_alarm_text("Off!")
+        set_alarm_text("Парковка прекращена")
         pi = PendingIntent.getBroadcast(this@ParkingActivity,0,myIntent,PendingIntent.FLAG_UPDATE_CURRENT)
         am.cancel(pi)
         myIntent.putExtra("extra", "off")
